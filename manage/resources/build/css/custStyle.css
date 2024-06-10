@@ -1,0 +1,63 @@
+.plans {
+    background: #005288 none repeat scroll 0 0;
+    color: #ffffff;
+    padding: 10px 0;
+  }
+  .high_tech{
+      background:#fff;
+  }
+  .high_tech li {
+    border-bottom: 1px solid #e5e5e5;
+    color: #575656;
+    font-size: 8px;
+    padding: 3px 3px 3px 3px;
+  }
+  .high_tech li.head_tech {
+    background: #023455 none repeat scroll 0 0;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'GothamBold';
+    text-transform:uppercase;
+    color: #fff;
+  }
+
+  .high_tech li span.tick_img {
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    width: 20px;
+  }
+  .menu_sec.right_menu{
+      float:right;
+  } 
+  .plans h1 {
+    font-size: 30px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-family: 'GothamBold';
+  }
+  .plans .border_head {
+    background: #ffffff none repeat scroll 0 0;
+    height: 2px;
+    margin: 15px auto 45px;
+    width: 100%;
+  }
+  .btn.btn_quote {
+    background: #ffea00 none repeat scroll 0 0;
+    color: #005288;
+    font-size: 18px;
+    text-transform:uppercase;
+    margin: 5px;
+    padding: 10px 10px;
+    font-family: 'GothamBold';
+    display: inline-block;
+  }
+  .btn.btn_quote:hover {
+      background: #76ba44 none repeat scroll 0 0;
+      transition:all 0.5s ease-in-out 0s;
+  }
+  .buttons nav {
+    float: right;
+    margin: 0px;
+  }
