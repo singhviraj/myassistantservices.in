@@ -1,50 +1,57 @@
 
 <style>
 
-    
+    body{
+        overflow:hidden;
+        margin:0!important;
+    }
 
 .container{
-    width: 100%;
-    height:auto;
-    margin-left: 50%;
-    margin-top: 35%;
-   overflow: hidden;
-   transform: translate(-50%,-50%);
-   box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
-   
+    
+height:100%;
+width:300%;
+
+position:relative;
 }
+
 .wrapperone{
-   
+    position:relative;
+    width:100%;
+    height:100%;
     display: flex ;
-    animation: slide 10s infinite;
+    animation: slide 30s infinite;
+    background-color: #92a8d1;
+
     
+}
+.wrappertwo{
+    
+    width:200%;
+    height:100%;
+    display: flex ;
+    position:absolute;
+    top:0px;
+    animation: slide-up 30s infinite;
+}
+
+.wrappertwotwo{
+    
+   animation: slide-down1 10s infinite;
+
 }
 
 
-@keyframes slide-up{
-    0%{
-        transform: translateX(0);
-    }
-    16%{
-        transform: translateX(-100%);
-    }
-    32%{
-        transform: translateX(-200%);
-    }
-    48%{
-        transform: translateX(-300%);
-    }
+
+h1{
+    width:200%;
+    height:100%;
     
-    64%{
-        transform: translateX(-400%);
-    }
-     
-    80%{
-        transform: translateX(-500%);
-    }
-    100%{
-        transform: translateX(-500%);
-    }
+}
+img{
+   
+    width:100%;
+    height:100%;
+   
 }
 
 
@@ -53,38 +60,83 @@
     0%{
         transform: translateX(0);
     }
-    30%{
+    33%{
         transform: translateX(0);
     }
-    
-    58%{
-        transform: translateX(-100%);
+    34%{
+        transform: translateX(-33%);
     }
-    
-    74%{
-        transform: translateX(-200%);
+    64%{
+        transform: translateX(-33%);
     }
-     
+    66%{
+        transform: translateX(-66%);
+    }
+    98%{
+        transform: translateX(-66%);
+    }
+    99%{
+        transform: translateX(0);
+    }
    
 }
 
-  
 
+
+@keyframes slide-up{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(0);
+    }
+    34%{
+        transform: translateX(-33%);
+    }
+    67%{
+        transform: translateX(-33%);
+    }
+    68%{
+        transform: translateX(-66%);
+    }
+    98%{
+        transform: translateX(-66%);
+    }
+    99%{
+        transform: translateX(0);
+    }
+   
+}
+
+@keyframes slide-down1{
+    0%{
+        transform: translateX(-50%);
+    }
+    
+    30%{
+        transform: translateX(0);
+    }
+
+   100%{
+    transform: translateX(0);
+   }
+}
 
     </style>
 
 
-
-
-
-
-
-
 <div class="container">
+    
     <div class="wrapperone">
         <img src="rev/assets/1.1.jpg" >
-        <img src="rev/assets/2.jpg" style="height:1500px;width:1350px;margin-top:500px">
+        <img src="rev/assets/2.jpg" >
         <img src="rev/assets/3.3.jpg" >
     </div>
+    <div class="wrappertwo">
+       <h1 class="wrappertwotwo">you</h1>
+       <h1 class="wrappertwotwo">and you</h1>
+        <h1 class="wrappertwotwo">and you uuuu</h1>
+    </div>
  </div>
+
 
